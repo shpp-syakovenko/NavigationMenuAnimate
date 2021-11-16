@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".BlankFragment3">
+
+    <Button
+        android:id="@+id/buttonThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:enterAnim="@anim/slide_in_right"
+        android:text="Fragment 3" />
+    <Button
+        android:id="@+id/buttonAnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:enterAnim="@anim/slide_in_right"
+        android:text="Start Anim" />
+    <TextView
+        android:id="@+id/tvAnim"
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:text="Animation"
+        android:background="@color/purple_200"
+        app:enterAnim="@anim/slide_in_right"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
